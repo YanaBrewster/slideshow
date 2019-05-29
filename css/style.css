@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+.row-l::after {
+  clear: both;
+  display: block;
+  content: ''; }
+
+.col-l {
+  float: left;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.col1-l {
+  width: 8.3333333333%; }
+
+.offset1-l {
+  margin-left: 8.3333333333%; }
+
+.col2-l {
+  width: 16.6666666667%; }
+
+.offset2-l {
+  margin-left: 16.6666666667%; }
+
+.col3-l {
+  width: 25%; }
+
+.offset3-l {
+  margin-left: 25%; }
+
+.col4-l {
+  width: 33.3333333333%; }
+
+.offset4-l {
+  margin-left: 33.3333333333%; }
+
+.col5-l {
+  width: 41.6666666667%; }
+
+.offset5-l {
+  margin-left: 41.6666666667%; }
+
+.col6-l {
+  width: 50%; }
+
+.offset6-l {
+  margin-left: 50%; }
+
+.col7-l {
+  width: 58.3333333333%; }
+
+.offset7-l {
+  margin-left: 58.3333333333%; }
+
+.col8-l {
+  width: 66.6666666667%; }
+
+.offset8-l {
+  margin-left: 66.6666666667%; }
+
+.col9-l {
+  width: 75%; }
+
+.offset9-l {
+  margin-left: 75%; }
+
+.col10-l {
+  width: 83.3333333333%; }
+
+.offset10-l {
+  margin-left: 83.3333333333%; }
+
+.col11-l {
+  width: 91.6666666667%; }
+
+.offset11-l {
+  margin-left: 91.6666666667%; }
+
+.col12-l {
+  width: 100%; }
+
+.offset12-l {
+  margin-left: 100%; }
+
+@media screen and (min-width: 600px) {
+  .colM1-l {
+    width: 8.3333333333%; }
+
+  .offsetM1-l {
+    margin-left: 8.3333333333%; }
+
+  .colM2-l {
+    width: 16.6666666667%; }
+
+  .offsetM2-l {
+    margin-left: 16.6666666667%; }
+
+  .colM3-l {
+    width: 25%; }
+
+  .offsetM3-l {
+    margin-left: 25%; }
+
+  .colM4-l {
+    width: 33.3333333333%; }
+
+  .offsetM4-l {
+    margin-left: 33.3333333333%; }
+
+  .colM5-l {
+    width: 41.6666666667%; }
+
+  .offsetM5-l {
+    margin-left: 41.6666666667%; }
+
+  .colM6-l {
+    width: 50%; }
+
+  .offsetM6-l {
+    margin-left: 50%; }
+
+  .colM7-l {
+    width: 58.3333333333%; }
+
+  .offsetM7-l {
+    margin-left: 58.3333333333%; }
+
+  .colM8-l {
+    width: 66.6666666667%; }
+
+  .offsetM8-l {
+    margin-left: 66.6666666667%; }
+
+  .colM9-l {
+    width: 75%; }
+
+  .offsetM9-l {
+    margin-left: 75%; }
+
+  .colM10-l {
+    width: 83.3333333333%; }
+
+  .offsetM10-l {
+    margin-left: 83.3333333333%; }
+
+  .colM11-l {
+    width: 91.6666666667%; }
+
+  .offsetM11-l {
+    margin-left: 91.6666666667%; }
+
+  .colM12-l {
+    width: 100%; }
+
+  .offsetM12-l {
+    margin-left: 100%; } }
+@media screen and (min-width: 960px) {
+  .colL1-l {
+    width: 8.3333333333%; }
+
+  .offsetL1-l {
+    margin-left: 8.3333333333%; }
+
+  .colL2-l {
+    width: 16.6666666667%; }
+
+  .offsetL2-l {
+    margin-left: 16.6666666667%; }
+
+  .colL3-l {
+    width: 25%; }
+
+  .offsetL3-l {
+    margin-left: 25%; }
+
+  .colL4-l {
+    width: 33.3333333333%; }
+
+  .offsetL4-l {
+    margin-left: 33.3333333333%; }
+
+  .colL5-l {
+    width: 41.6666666667%; }
+
+  .offsetL5-l {
+    margin-left: 41.6666666667%; }
+
+  .colL6-l {
+    width: 50%; }
+
+  .offsetL6-l {
+    margin-left: 50%; }
+
+  .colL7-l {
+    width: 58.3333333333%; }
+
+  .offsetL7-l {
+    margin-left: 58.3333333333%; }
+
+  .colL8-l {
+    width: 66.6666666667%; }
+
+  .offsetL8-l {
+    margin-left: 66.6666666667%; }
+
+  .colL9-l {
+    width: 75%; }
+
+  .offsetL9-l {
+    margin-left: 75%; }
+
+  .colL10-l {
+    width: 83.3333333333%; }
+
+  .offsetL10-l {
+    margin-left: 83.3333333333%; }
+
+  .colL11-l {
+    width: 91.6666666667%; }
+
+  .offsetL11-l {
+    margin-left: 91.6666666667%; }
+
+  .colL12-l {
+    width: 100%; }
+
+  .offsetL12-l {
+    margin-left: 100%; } }
+
+
+/* SLIDESHOW      */
+
+#slideshowSlider{
+ max-width: 1000px;
+ margin: 0 auto;
+ /* overflow: hidden; */
+ height: 600px;
+ position: relative;
+}
+
+.slideshowContainer{
+  position: relative;
+  transform: translateX(0);
+  left: 0;
+  width: 3000px;
+  height: 600px;
+  left: -1000px;
+}
+
+.slideshowContainer::after{
+    clear: both;
+    display: block;
+    content: '';
+}
+
+.slide{
+    width: 1000px;
+    float: left;
+    transform:
+}
+
+.slide img{
+  max-width: 100%;
+}
+
+.transition {
+  transition: .7s;
+}
