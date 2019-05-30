@@ -244,11 +244,11 @@
 
 .slideshowContainer{
   position: relative;
-  transform: translateX(0);
+  /* transform: translateX(0); */
   left: 0;
   width: 3000px;
   height: 600px;
-  left: -1000px;
+  /* left: -1000px; */
 }
 
 .slideshowContainer::after{
@@ -260,7 +260,6 @@
 .slide{
     width: 1000px;
     float: left;
-    transform:
 }
 
 .slide img{
@@ -269,4 +268,9 @@
 
 .transition {
   transition: .7s;
+}
+
+button {
+  display: flex;
+  justify-content: center;
 }
