@@ -1,45 +1,30 @@
-// console.log(); everything and get the button working
+
+$(document).ready(function(){
+
+	var slideContainer = $('.slideContainer');
+	setInterval(function(){
+
+			slideContainer.addClass('transition').css('transform', 'translateX(-1000px)');
+
+			setTimeout(function(){
+					var firstSlide = $('.slide').first();
+					slideContainer.append(firstSlide);
+					slideContainer.removeClass('transition').css('transform', 'translateX(0)');
+			}, 700)
+	}, 6000)
 
 
-// append
-// set interval *
-// first
-// last
-// remove
-// addClass
-// removeClass
-// css
-// settimeout
+	$('#next').click(function(){
+			var firstSlide = $('.slide').first();
+			var slideContainer = $('.slideContainer');
+			slideContainer.append(firstSlide);
+	});
 
-function slider() {
-
-		var images = $('.slide');
-
-		for(var i=0; i < images.length; i++) {
-			images[i].( ".slide" ).addClass( "overflow: hidden;" );
-		}
-
-		$('#next').click(function() {
-      myKey+2;
-    	slider();
-    })
-
-		$('#previous').click(function() {
-		myKey-2;
-		slider();
-  })
-
-		myKey++;
-		if(myKey > images.length) {
-			myKey = 1;
-		}
-
-		images[myKey-1].style.display = "block";
-
-		setInterval(slider,10000);
-	}
-
-	var myKey = 0;
+	$('#previous').click(function(){
+			var lastSlide = $('.slide').last();
+			var slideContainer = $('.slideContainer');
+			slideContainer.prepend(lastSlide);
+	});
 
 
-	slider();
+});
